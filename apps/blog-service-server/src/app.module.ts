@@ -4,6 +4,7 @@ import { PostModule } from "./post/post.module";
 import { AuthorModule } from "./author/author.module";
 import { CategoryModule } from "./category/category.module";
 import { UserModule } from "./user/user.module";
+import { EmployeeModule } from "./employee/employee.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -21,6 +22,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     AuthorModule,
     CategoryModule,
     UserModule,
+    EmployeeModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,

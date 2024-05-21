@@ -36,3 +36,14 @@ model User {
   id        String   @id @default(cuid())
   updatedAt DateTime @updatedAt
 }
+
+model Employee {
+  createdAt DateTime  @default(now())
+  email     String?
+  firstName String?
+  hireDate  DateTime?
+  id        String    @id @default(cuid())
+  lastName  String?
+  position  String?
+  updatedAt DateTime  @updatedAt
+}
